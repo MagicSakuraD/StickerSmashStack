@@ -9,6 +9,7 @@ export default function AboutScreen() {
       <Button size="md" variant="solid" action="primary">
         <ButtonText>Hello World!</ButtonText>
       </Button>
+      <View className="w-10 h-10 bg-rose-500" />
     </View>
   );
 }
