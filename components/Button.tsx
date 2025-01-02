@@ -26,7 +26,7 @@ export default function Button({ label, theme, onPress }: Props) {
     <View className="w-80 h-16 mx-5 justify-center p-1 items-center">
       <Pressable
         className="rounded-xl w-full h-full items-center justify-center flex-row"
-        onPress={() => alert("You press a button!")}
+        onPress={onPress}
       >
         <Text className="text-white text-base">{label}</Text>
       </Pressable>
