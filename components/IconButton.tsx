@@ -17,7 +17,13 @@ type Props = {
 
 export default function IconButton({ icon, label, onPress }: Props) {
   return (
-    <Button size="md" variant="solid" action="primary" onPress={onPress}>
+    <Button
+      size="md"
+      variant="solid"
+      action="primary"
+      onPress={onPress}
+      className="bg-transparent"
+    >
       <MatericalIcon name={icon} size={24} color="#fff" />
       <ButtonText>{label}</ButtonText>
     </Button>
